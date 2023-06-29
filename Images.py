@@ -9,7 +9,7 @@ for k in range(len(map)):
         options.append([s, k])
 
 
-def win(x, y, p):
+def win(x,y, p):
     ready = True
     for x in range(3):
         if (map[x][0] is p) and (map[x][1] is p) and (
@@ -253,9 +253,9 @@ def oplace22():
         print(win(2, 2, 'o'))
 
 
-Omage = tk.PhotoImage(file=r"C:\Users\ratth\PycharmProjects\Chess\Omage.PNG")
-Xmage = tk.PhotoImage(file=r"C:\Users\ratth\PycharmProjects\Chess\Xmage.PNG")
-mage = tk.PhotoImage(file=r"C:\Users\ratth\PycharmProjects\Chess\Blank.PNG")
+Omage = tk.PhotoImage(file=r"Tik-Tak-Toe-\O.png")
+Xmage = tk.PhotoImage(file=r"Tik-Tak-Toe-\X.PNG")
+mage = tk.PhotoImage(file=r"Tik-Tak-Toe-\Blank.PNG")
 button00 = tkinter.Button(master, image=mage, height=90, background="navy", width=80, font=("Ariel", 8),
                           activebackground="grey",
                           command=xplace00)
